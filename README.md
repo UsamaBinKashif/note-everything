@@ -17,7 +17,7 @@ This is a open source code to the notes app which uses local storage of your bro
 
 ### Links
 
-- [Live Site URL](https://usamabinkashif.github.io/QR-Code-Component/)
+- [Live Site URL](https://usamabinkashif.github.io/note_everything/)
  </br>
  </br>
 
