@@ -1,0 +1,40 @@
+*::after,
+::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-teal: #019267;
+  --light-teal: #00c897;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+body {
+  background-color: #00c897;
+}
+.navbar {
+  background-color: var(--dark-teal);
+  color: var(--black);
+}
+
+input[type="search"]:focus {
+  box-shadow: none;
+  border: 1px solid var(--black);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid var(--dark-teal);
+}
+
+hr {
+  border: 3px solid var(--white);
+}
+#alertTxt {
+  display: none;
+}
+ 
