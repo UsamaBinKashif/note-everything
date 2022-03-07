@@ -14,14 +14,14 @@
     />
 
     <!--Custom Css-->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
 
     <title>Note Everything</title>
   </head>
   <body>
     <nav class="navbar">
       <div class="container-fluid">
-        <a class="navbar-brand text-light">Note Everything</a>
+        <a class="navbar-brand text-light">Note Everything.</a>
         <form class="d-flex">
           <input
             class="form-control me-2"
@@ -37,9 +37,13 @@
     <div class="container my-4">
       <div class="card text-success">
         <div class="card-body">
+          <div class="mb-3">
+            <h5 class="card-title">Add title</h5>
+            <input type="text" class="form-control" id="noteTitle" aria-describedby="title" placeholder="Your note title">
+          </div>
           <h5 class="card-title">Add a note</h5>
           <div class="input-group">
-            <textarea class="form-control" id="noteInput"></textarea>
+            <textarea class="form-control" id="noteInput" placeholder="Your note"></textarea>
           </div>
           <h6 class="alert alert-danger fw-bold my-4" id="alertTxt">
             *Type something please!
